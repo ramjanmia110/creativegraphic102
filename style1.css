@@ -1,0 +1,252 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    font-family: 'Handlee', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-image: url(background.JPG);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container{
+    height: 100vh;
+}
+
+.navbar{
+    padding: 1% 10%;
+    background-color:rgba(0,0,0,0.3);
+}
+.navbar-icon{
+    color: rgb(243, 231, 231);
+}
+
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+
+#nav-my{
+    color:white;
+    margin:3px;
+    border-radius:5px;
+    transition: .4s;
+    font-family: 'Roboto', sans-serif;
+}
+    
+    
+
+#nav-my:hover{
+    background: #2980b9;
+    color:white;
+    transform: scale(1.1);
+}
+
+.banner-container h1{
+    font-size: 3.5rem;
+    background-color: rgba(7,101,189,0.8);
+    padding: 10px 20px;
+    font-family: 'Satisfy', cursive;
+    border-radius: 5px;
+}
+
+.hr-style{
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#btn1{
+    display:inline;
+    margin: 0 auto;
+    margin-left: 120px;
+   
+}
+
+.some{
+    color:red;
+    margin-right: 5px;
+}
+
+/* features start here */
+#features{
+    padding: 5% 10%;
+    background: beige;
+}
+
+.features-col{
+    border: 1px solid tomato;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0px;
+    transition: .4s;
+
+}
+
+.features-col:hover{
+    transform:scale(1.1);
+    box-shadow:2px 6px 5px black;
+}
+
+.icon-style{
+    background: rgb(130, 210, 241);
+    color: rgb(166, 113, 219);
+    padding: 15px;
+    margin: 5px 0;
+}
+
+/* features start here */
+
+/* about me start here */
+
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+#about-me{
+    padding: 4% 10%;
+    background: rgb(219, 190, 153);
+}
+
+#about-me p{
+    font-size: 0.9rem;
+    text-align: justify;
+    font-family: 'Handlee', cursive;
+    font-weight: light;
+}
+
+#about-me a{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color:red;
+    text-decoration: underline;
+}
+
+span{
+    color: tomato;
+    font-size: 16px;
+}
+
+.star i{
+    width: 20px;
+ 
+}
+
+.td{
+    color:rgb(1, 24, 18);
+    padding-right: 15px;
+}
+
+/* about me end here */
+
+/* tutorial section start here */
+
+#tutorial{
+    padding: 4% 10%;
+    background:#944e66;
+}
+
+.card{
+    transition: .4s;
+    border:1px solid black;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+/* tutorial section end here */
+
+/* Feedback section start here */
+
+#feedback{
+    padding: 5%;
+    background: #B9E0FF;
+  
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 7% 15%;
+    font-family: 'Handlee', cursive;
+    
+    
+}
+
+.feedback-img{
+    width: 120px;
+    height: auto;
+    margin-bottom:5px;
+    
+}
+
+.text{
+    text-align: justify;
+    color: tomato;
+}
+
+/* Feedback section start here */
+
+/* contact section start here */
+
+#contact{
+    padding: 2% 10%;
+    background: #DEBACE;
+}
+
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+/* contact section end here */
+
+/* footer section start here */
+
+footer{
+    padding: 1% 10%;
+    background: #022527;
+}
+
+footer a{
+    color:white;
+    margin: 0 10px;
+   
+}
+
+footer a:hover{
+color: aquamarine;
+}
+/* footer section start here */
+
+
+@media (max-width:768px){
+    .nav-link{
+        background: #C060A1;
+    }
+
+    .banner-container h1{
+        font-size: 2.5rem;
+        
+    }
+}
+   
+
+
+    
